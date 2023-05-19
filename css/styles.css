@@ -1,0 +1,117 @@
+body{
+    font-family: monospace;
+    margin-left: 20px;
+}
+.black{
+    background-color: black;
+    color:white;
+}
+.conteiner{
+    display:flex;
+    position:fixed;
+    background-color: black;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 500;
+
+}
+.button{
+    position:relative;
+    top: 15px ;
+    left: 1530px ;
+    bottom: 15px ;
+}
+.btn{
+    font-size: 1.2rem;
+    font-family: monospace;
+    color:black;
+    background-color: white;
+    min-height: 50px;
+    min-width: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.6;
+    transition: .3s;
+}
+.up{
+    margin-top: 70px;
+    padding-right: 40px;
+    width: 40%;
+    height: 225px;
+    font-size: 1.2rem;
+}
+.blocks{
+    display:flex;
+}
+.img{
+    padding-right: 200px;
+    padding-top: 100px;
+    width:700;
+    height:700;
+}
+h1{
+    margin:0;
+    font-weight: 50;
+    font-size: 4rem;
+}
+.rabby{
+    max-width: 225px;
+}
+.text{
+    max-width: 500px;
+}
+.collections{
+    display:flex;
+    border-width: 3px ;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 50px;
+    max-width: 200px;
+    padding-left: 5px;
+}
+.collections:hover{
+    opacity: 0.6;
+    transition: .3s;
+}
+a{
+    position: relative;
+    bottom: 20;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.creared{
+    color: grey;
+}
+.down{
+    background-color: black;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 500px;
+    text-align: center;
+}
+.btn1{
+    font-size: 1.2rem;
+    font-family: monospace;
+    color:black;
+    background-color: white;
+    min-height: 50px;
+    min-width: 15px;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    opacity: 0.6;
+    transition: .3s;
+}
